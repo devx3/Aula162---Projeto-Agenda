@@ -1,0 +1,8 @@
+<br><br>
+<form method="get" action="{% url 'search' %}">
+    <div class="form-group">
+        <div class="col-12">
+            <input type="search" id="search-input" class="form-control" placeholder="Digite sua Pesquisa" name="term" value="{{request.GET.term}}">
+        </div>
+    </div>
+</form>
