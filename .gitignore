@@ -125,3 +125,7 @@ dmypy.json
 
 # Local_config
 agenda/local_config.py
+
+# PyChache
+__pycache__/
+ *.pyc
