@@ -141,4 +141,7 @@ MESSAGE_TAGS = {
     constants.INFO: 'alert-info',
 }
 
-from .local_config import *
+try:
+    from .local_config import *
+except Exception:
+    pass
